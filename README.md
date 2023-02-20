@@ -1,7 +1,7 @@
 # Companies App
 
 This is a simple app that allows you to fetch companies from an API and search for them.
-To see the live demo, you can visit [Companies App]().
+To see the live demo, you can visit [Companies App](https://companies-list-steel.vercel.app/).
 
 # Getting Started
 

@@ -57,7 +57,11 @@ const App = () => {
           >
             <section className="accordion-content">
               <div className="column">
-                <img src={company.images["64x64"]} alt={company.name} />
+                <img
+                  src={company.images["64x64"]}
+                  alt={company.name}
+                  loading="lazy"
+                />
               </div>
               <div className="column">
                 <span>Company: {company.name}</span>
