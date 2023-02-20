@@ -1,0 +1,71 @@
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100% !important;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+.accordion {
+  list-style-type: none;
+  min-width: 500px;
+}
+
+.accordion-title {
+  margin: 0;
+  cursor: pointer;
+  padding: 8px;
+  background-color: #3c84ab;
+  color: #fff;
+  border-bottom: 1px solid #85cdfd;
+  border-radius: 10px;
+  font-size: 18px;
+  z-index: 2;
+  position: relative;
+}
+
+.accordion-content {
+  display: flex;
+  background: #f5f5f5;
+  padding: 26px 8px 8px 8px;
+  border-radius: 10px;
+  margin-top: -15px;
+  z-index: -1;
+}
+
+span {
+  display: block;
+  color: #3c84ab;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  width: 100%;
+  margin: 0;
+}
+
+p {
+  text-align: center;
+}
